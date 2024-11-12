@@ -23,9 +23,9 @@
 
   <label for="inputField">Enter some text:</label>
   <input type="text" id="inputField" placeholder="Type something...">
-  <button onclick="displayText()">Show Text</button>
+  <button onclick="displayText()">Montrer le texte</button>
 
-  <div id="output"></div>
+  <div id="magie"></div>
 
   <script>
     function displayText() {
@@ -33,7 +33,7 @@
       var userInput = document.getElementById('inputField').value;
 
       // Display the value in the output div
-      document.getElementById('output').textContent = "You typed: " + userInput;
+      document.getElementById('magie').textContent = "Vous avez écrit: " + userInput;
     }
   </script>
 
