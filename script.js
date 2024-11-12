@@ -1,8 +1,8 @@
-// script.js
-function displayText() {
-  // Get the value from the input field
-  var userInput = document.getElementById('inputField').value;
-
-  // Display the value in the output div
-  document.getElementById('magie').textContent = "You typed: " + userInput;
+// Fonction JavaScript qui change le texte du paragraphe
+function changerTexte() {
+    // Récupère l'élément avec l'ID 'message'
+    var paragraphe = document.getElementById('message');
+    
+    // Change le texte du paragraphe
+    paragraphe.innerHTML = "Le texte a été changé !";
 }
